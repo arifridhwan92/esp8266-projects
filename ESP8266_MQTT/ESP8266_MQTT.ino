@@ -11,16 +11,16 @@
 
 
 // Replace with your network credentials
-const char* ssid     = "arifridhwan";
-const char* password = "arif1234";
+const char* ssid     = "Your wifi ssid";
+const char* password = "Your wifi password";
 
 // Change the variable to your Raspberry Pi IP address, so it connects to your MQTT broker
 const char* mqtt_server = "broker.hivemq.com";
 
 
 //Publish MQTT Topics
-#define MQTT_PUB_TEMP "room/temperature/0163717696" //change to reading 1 topic
-#define MQTT_PUB_HUM "room/humidity/0163717696" //change to reading 2 topic
+#define MQTT_PUB_TEMP "room/temperature/UID" //change to reading 1 topic
+#define MQTT_PUB_HUM "room/humidity/UID" //change to reading 2 topic
 
 //Subscribe MQTT Topics
 #define OUTPUT_TOPIC "esp8266/output/test" //change to output 1 topic
